@@ -21,9 +21,10 @@ CMD ["python", "./app/main.py"]
 #Running the image
 #docker run fastapiapp
 
-#Docker start
-#docker run fastapiapp
+#Connecting Docker to Macbook Port
+#docker run -p 8000:8000 fastapiapp
 
+#Testing the features from Docker Dashboard Desktop app
 #To list the running containers
 #docker ps
 
